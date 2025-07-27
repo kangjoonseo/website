@@ -134,18 +134,6 @@ export default function skills() {
           name: "VS Code",
           icon: vscodeIcon,
         },
-        {
-          name: "Arc",
-          icon: arcIcon,
-        },
-        {
-          name: "Warp Terminal",
-          icon: warpIcon,
-        },
-        {
-          name: "Postman",
-          icon: postmanIcon,
-        },
       ],
     },
     {
