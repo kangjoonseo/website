@@ -57,6 +57,10 @@ export default function skills() {
           name: "Java",
           icon: javaIcon,
         },
+        {
+          name: "HTML5",
+          icon: html5Icon,
+        },
       ],
     },
     {
@@ -83,10 +87,6 @@ export default function skills() {
           icon: nextjsIcon,
         },
         {
-          name: "HTML5",
-          icon: html5Icon,
-        },
-        {
           name: "Tailwind CSS",
           icon: tailwindcssIcon,
         },
@@ -94,7 +94,6 @@ export default function skills() {
           name: "Bootstrap",
           icon: bootstrapIcon,
         },
-        
         {
           name: "PostgreSQL",
           icon: postgresIcon,
