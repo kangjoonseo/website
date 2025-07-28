@@ -22,7 +22,7 @@ export default function about() {
           <MotionDiv delayOffset={0.5}>
             <p>
               I have internship and project experience in both Full Stack development and Data Engineering.
-              During my time in school, I've built a strong proficiency in Python, C++, SQL, JavaScript, and React. 
+              During my time in school, I've built a strong proficiency in Python, C++, SQL, JavaScript, TypeScript, and React. 
               I love learning new technologies, and I hope to grow and use my skills to make a difference in people's lives.
             </p>
           </MotionDiv>

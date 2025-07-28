@@ -10,28 +10,39 @@ import javaIcon from "@/assets/icons/java.png";
 import html5Icon from "@/assets/icons/html5.png";
 import tailwindcssIcon from "@/assets/icons/tailwindcss.png";
 import nodejsIcon from "@/assets/icons/nodejs.png";
-import nestjsIcon from "@/assets/icons/nest-js.png";
 import expressjsIcon from "@/assets/icons/express-js.png";
 import postgresIcon from "@/assets/icons/postgres.png";
 import dockerIcon from "@/assets/icons/docker.png";
 import gitIcon from "@/assets/icons/git.png";
-import ubuntuIcon from "@/assets/icons/ubuntu.svg";
-import macosIcon from "@/assets/icons/macos.png";
-import vscodeIcon from "@/assets/icons/vscode.png";
 import lightroomIcon from "@/assets/icons/lightroom.png";
-import githubActionsIcon from "@/assets/icons/github-actions.png";
+import cppIcon from "@/assets/icons/c++.png";
+import psIcon from "@/assets/icons/photoshop.png";
+import premiereIcon from "@/assets/icons/premiere.png";
+import sqlIcon from "@/assets/icons/sql.png"
+import bootstrapIcon from "@/assets/icons/bootstrap.png"
+import rIcon from "@/assets/icons/ricon.png"
+import snowflakeIcon from "@/assets/icons/snowflake.png"
+import linuxIcon from "@/assets/icons/linux.png"
 export default function skills() {
   const data = [
     {
-      title: "Web Development",
+      title: "Languages",
       skills: [
         {
-          name: "React.js",
-          icon: reactIcon,
+          name: "Python",
+          icon: pythonIcon,
         },
         {
-          name: "Next.js",
-          icon: nextjsIcon,
+          name: "C++",
+          icon: cppIcon,
+        },
+        {
+          name: "SQL",
+          icon: sqlIcon,
+        },
+        {
+          name: "R",
+          icon: rIcon,
         },
         {
           name: "TypeScript",
@@ -42,21 +53,21 @@ export default function skills() {
           icon: javascriptIcon,
         },
         {
-          name: "HTML5",
-          icon: html5Icon,
-        },
-        {
-          name: "Tailwind CSS",
-          icon: tailwindcssIcon,
+          name: "Java",
+          icon: javaIcon,
         },
       ],
     },
     {
-      title: "Backend Development",
+      title: "Tools & Technologies",
       skills: [
         {
-          name: "Nest.js",
-          icon: nestjsIcon,
+          name: "Snowflake",
+          icon: snowflakeIcon,
+        },
+        {
+          name: "React.js",
+          icon: reactIcon,
         },
         {
           name: "Express.js",
@@ -67,72 +78,37 @@ export default function skills() {
           icon: nodejsIcon,
         },
         {
+          name: "Next.js",
+          icon: nextjsIcon,
+        },
+        {
+          name: "HTML5",
+          icon: html5Icon,
+        },
+        {
+          name: "Tailwind CSS",
+          icon: tailwindcssIcon,
+        },
+        {
+          name: "Bootstrap",
+          icon: bootstrapIcon,
+        },
+        
+        {
           name: "PostgreSQL",
           icon: postgresIcon,
         },
-      ],
-    },
-    {
-      title: "Mobile Development",
-      skills: [
-        {
-          name: "React Native",
-          icon: reactIcon,
-        },
-      ],
-    },
-    {
-      title: "DevOps",
-      skills: [
         {
           name: "Git",
           icon: gitIcon,
-        },
-        {
-          name: "GitHub Actions",
-          icon: githubActionsIcon,
         },
         {
           name: "Docker",
           icon: dockerIcon,
         },
         {
-          name: "Ubuntu",
-          icon: ubuntuIcon,
-        },
-      ],
-    },
-    {
-      title: "Languages",
-      skills: [
-        {
-          name: "TypeScript",
-          icon: typescriptIcon,
-        },
-        {
-          name: "JavaScript",
-          icon: javascriptIcon,
-        },
-        {
-          name: "Python",
-          icon: pythonIcon,
-        },
-        {
-          name: "Java",
-          icon: javaIcon,
-        },
-      ],
-    },
-    {
-      title: "Tools & Environment",
-      skills: [
-        {
-          name: "macOS",
-          icon: macosIcon,
-        },
-        {
-          name: "VS Code",
-          icon: vscodeIcon,
+          name: "Linux",
+          icon: linuxIcon,
         },
       ],
     },
@@ -142,6 +118,14 @@ export default function skills() {
         {
           name: "Lightroom",
           icon: lightroomIcon,
+        },
+        {
+          name: "Photoshop",
+          icon: psIcon,
+        },
+        {
+          name: "Premiere",
+          icon: premiereIcon,
         },
       ],
     },
