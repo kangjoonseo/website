@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
   faGithub,
@@ -45,6 +45,12 @@ const contacts: Contact[] = [
     className: "bg-black hover:bg-gray-800/90",
     href: "https://www.linkedin.com/in/j99kang/",
     icon: faLinkedin,
+  },
+  {
+    name: "Resume",
+    className: "bg-yellow-500 hover:bg-yellow-600",
+    href: "/resume.pdf",
+    icon: faFilePdf,
   },
 ];
 export default function ContactList({
