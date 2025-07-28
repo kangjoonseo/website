@@ -1,6 +1,7 @@
 import MotionDiv from "@/components/motion-div";
 import MotionList from "@/components/motion-list";
 import Image from "next/image";
+import type { StaticImageData } from "next/image";
 import reactIcon from "@/assets/icons/react.png";
 import nextjsIcon from "@/assets/icons/next-js.png";
 import typescriptIcon from "@/assets/icons/typescript.png";
@@ -51,14 +52,6 @@ export default function skills() {
           icon: nextjsIcon,
         },
         {
-          name: "TypeScript",
-          icon: typescriptIcon,
-        },
-        {
-          name: "JavaScript",
-          icon: javascriptIcon,
-        },
-        {
           name: "HTML5",
           icon: html5Icon,
         },
@@ -73,22 +66,6 @@ export default function skills() {
         {
           name: "Express.js",
           icon: expressjsIcon,
-        },
-        {
-          name: "Node.js",
-          icon: nodejsIcon,
-        },
-        {
-          name: "PostgreSQL",
-          icon: postgresIcon,
-        },
-        {
-          name: "Git",
-          icon: gitIcon,
-        },
-        {
-          name: "Docker",
-          icon: dockerIcon,
         },
       ],
     },
@@ -129,7 +106,7 @@ export default function skills() {
   );
 }
 
-function SkillCard({ icon, name }: { icon: string; name: string }) {
+function SkillCard({ icon, name }: { icon: StaticImageData; name: string }) {
   return (
     <div className="group rounded-xl border-none p-5 text-center shadow-none transition-all duration-200 ease-linear hover:scale-110 hover:drop-shadow-xl">
       <div className="flex flex-col items-center gap-2">
