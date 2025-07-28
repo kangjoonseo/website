@@ -10,19 +10,16 @@ import javaIcon from "@/assets/icons/java.png";
 import html5Icon from "@/assets/icons/html5.png";
 import tailwindcssIcon from "@/assets/icons/tailwindcss.png";
 import nodejsIcon from "@/assets/icons/nodejs.png";
+import nestjsIcon from "@/assets/icons/nest-js.png";
 import expressjsIcon from "@/assets/icons/express-js.png";
 import postgresIcon from "@/assets/icons/postgres.png";
 import dockerIcon from "@/assets/icons/docker.png";
 import gitIcon from "@/assets/icons/git.png";
+import ubuntuIcon from "@/assets/icons/ubuntu.svg";
+import macosIcon from "@/assets/icons/macos.png";
+import vscodeIcon from "@/assets/icons/vscode.png";
 import lightroomIcon from "@/assets/icons/lightroom.png";
-import cppIcon from "@/assets/icons/c++.png";
-import psIcon from "@/assets/icons/photoshop.png";
-import premiereIcon from "@/assets/icons/premiere.png";
-import sqlIcon from "@/assets/icons/sql.png"
-import bootstrapIcon from "@/assets/icons/bootstrap.png"
-import rIcon from "@/assets/icons/ricon.png"
-import snowflakeIcon from "@/assets/icons/snowflake.png"
-import linuxIcon from "@/assets/icons/linux.png"
+import githubActionsIcon from "@/assets/icons/github-actions.png";
 export default function skills() {
   const data = [
     {
@@ -33,16 +30,25 @@ export default function skills() {
           icon: pythonIcon,
         },
         {
-          name: "C++",
-          icon: cppIcon,
+          name: "TypeScript",
+          icon: typescriptIcon,
         },
         {
-          name: "SQL",
-          icon: sqlIcon,
+          name: "JavaScript",
+          icon: javascriptIcon,
+        },
+      ],
+    },
+    {
+      title: "Tools & Technologies",
+      skills: [
+        {
+          name: "React.js",
+          icon: reactIcon,
         },
         {
-          name: "R",
-          icon: rIcon,
+          name: "Next.js",
+          icon: nextjsIcon,
         },
         {
           name: "TypeScript",
@@ -53,21 +59,16 @@ export default function skills() {
           icon: javascriptIcon,
         },
         {
-          name: "Java",
-          icon: javaIcon,
-        },
-      ],
-    },
-    {
-      title: "Tools & Technologies",
-      skills: [
-        {
-          name: "Snowflake",
-          icon: snowflakeIcon,
+          name: "HTML5",
+          icon: html5Icon,
         },
         {
-          name: "React.js",
-          icon: reactIcon,
+          name: "Tailwind CSS",
+          icon: tailwindcssIcon,
+        },
+        {
+          name: "Nest.js",
+          icon: nestjsIcon,
         },
         {
           name: "Express.js",
@@ -77,23 +78,6 @@ export default function skills() {
           name: "Node.js",
           icon: nodejsIcon,
         },
-        {
-          name: "Next.js",
-          icon: nextjsIcon,
-        },
-        {
-          name: "HTML5",
-          icon: html5Icon,
-        },
-        {
-          name: "Tailwind CSS",
-          icon: tailwindcssIcon,
-        },
-        {
-          name: "Bootstrap",
-          icon: bootstrapIcon,
-        },
-        
         {
           name: "PostgreSQL",
           icon: postgresIcon,
@@ -106,10 +90,6 @@ export default function skills() {
           name: "Docker",
           icon: dockerIcon,
         },
-        {
-          name: "Linux",
-          icon: linuxIcon,
-        },
       ],
     },
     {
@@ -118,14 +98,6 @@ export default function skills() {
         {
           name: "Lightroom",
           icon: lightroomIcon,
-        },
-        {
-          name: "Photoshop",
-          icon: psIcon,
-        },
-        {
-          name: "Premiere",
-          icon: premiereIcon,
         },
       ],
     },
